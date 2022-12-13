@@ -1,0 +1,39 @@
+{
+  "name": "leaderboard-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon",
+    "build": "tsc",
+    "start": "NODE_ENV=production node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "NODE_ENV=test jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.11",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "npm": "^8.3.0",
+    "socket.io": "^4.5.4",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.12.0"
+  }
+}
